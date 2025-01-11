@@ -4,23 +4,26 @@
     font-size: 16px;
     font-style: normal;
 }
+
 /* primary style */
 .primary-justify {
     text-align: justify;
 }
+
 .primary-title {
     font-size: 40px;
     font-weight: 700;
     text-align: left;
-    text-align: justify;
     color: rgb(14, 14, 14);
 }
+
 .primary-sub-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 32px;
     font-weight: 700;
     text-align: left;
 }
+
 .primary-btn {
     font-size: 18px;
     padding: 17px 34px 17px 34px;
@@ -31,6 +34,10 @@
     color: rgb(255, 255, 255);
     background-color: rgb(0, 106, 80);
 }
+.primary-btn:hover{
+    background-color: rgb(47, 211, 170);
+
+}
 /* nav bar styling */
 .headers-style nav {
     display: flex;
@@ -39,6 +46,7 @@
     padding: 24px 160px 24px 160px;
     background-color: white;
 }
+
 .bangladesh {
     width: 222px;
     height: 38px;
@@ -46,6 +54,7 @@
     font-size: 32px;
     text-align: left;
 }
+
 .sign-btn {
     border: 1px solid rgb(0, 106, 80);
     color: rgb(0, 106, 80);
@@ -55,35 +64,40 @@
     font-weight: 600;
     font-size: 18px;
 }
+
 /* banner style */
 .banner-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 160px 20px;
+    margin: 0px 160px 10px;
     gap: 64;
     padding: 80px 100px 80px 100px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
 }
+
 .bangladesh-title {
     font-size: 24px;
     font-weight: 500;
     text-align: left;
     color: rgba(14, 14, 14, 0.5);
 }
+
 .idea-innovation {
     font-size: 56px;
     font-weight: 700;
     text-align: left;
     line-height: 67px;
 }
+
 /* main */
 /* Pillar section box model */
 
 .pillars-section {
     margin: 80px 160px;
 }
+
 .pillars-container {
     display: flex;
     gap: 32px;
@@ -91,6 +105,7 @@
     align-items: center;
     padding: 0px;
 }
+
 .pillars-content {
     text-align: justify;
     padding: 24px;
@@ -98,10 +113,12 @@
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
 }
+
 /* Vision section box model */
 .visions-section {
     margin: 80px 160px;
 }
+
 .visions-container {
     display: flex;
     gap: 32px;
@@ -109,6 +126,7 @@
     align-items: center;
     padding: 0px;
 }
+
 .visions-content {
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -127,6 +145,7 @@
 #third {
     background-color: rgb(247, 235, 207);
 }
+
 /* dryunus-quotes-section */
 .dryunus-quotes-section {
     margin: 32px 160px 32px;
@@ -137,11 +156,13 @@
     color: rgba(14, 14, 14, 0.8);
 
 }
+
 .quotes {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
 }
+
 .learn-more {
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -157,20 +178,25 @@
     flex: none;
     border: none;
 }
+
 #btn-blue {
     background: rgb(84, 144, 245);
 
 }
+
 #btn-green {
     background: rgb(9, 161, 92)
 }
+
 #btn-yellow {
     background: rgb(255, 194, 57)
 }
+
 /* recent-news-section */
 .news {
-    margin: 32px 208px 32px;
+    margin: 32px 160px 32px;
 }
+
 .news-section {
     border: 1px solid rgba(14, 14, 14, 0.15);
     display: flex;
@@ -180,17 +206,117 @@
     padding: 40px;
     margin-bottom: 30px;
 }
+
 .news-description {
     padding: 40px;
 }
+
 .news1-image {
     width: 408px;
     height: 306px;
     border-radius: 24px;
 }
+
 .author {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
     text-align: left;
+}
+
+/* donate-section */
+.donation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 80px 0px;
+}
+
+.donate-title {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donation-button {
+    gap: 24;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.active {
+    background-color: rgb(198, 228, 214);
+}
+
+.input-money {
+    width: 1032px;
+    height: 64px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 32px 0px;
+    padding: 20px 40px 20px 40px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* subscribe section*/
+.newsletter-section {
+    margin: 0px 160px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    padding: 80px 100px 80px;
+}
+
+.subscribe-tittle {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subscribe-description {
+    text-align: center;
+}
+
+.email-input {
+    width: 600px;
+    height: 54px;
+    margin: 32px 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.spam-note {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* footer-title */
+.footer-title {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.social-icons{
+    text-align: center;
 }
