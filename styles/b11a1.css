@@ -32,10 +32,11 @@
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 106, 80);
+    background-color: rgb(11, 107, 83);
 }
+/* hover */
 .primary-btn:hover{
-    background-color: rgb(47, 211, 170);
+    background-color: rgb(6, 164, 124)
 
 }
 /* nav bar styling */
@@ -63,6 +64,9 @@
     height: 52px;
     font-weight: 600;
     font-size: 18px;
+}
+.sign-btn:hover{
+    background-color: rgb(190, 190, 190);
 }
 
 /* banner style */
@@ -181,15 +185,23 @@
 
 #btn-blue {
     background: rgb(84, 144, 245);
-
+}
+#btn-blue:hover{
+    background: rgb(49, 99, 185);
 }
 
 #btn-green {
     background: rgb(9, 161, 92)
 }
+#btn-green:hover{
+    background-color: rgb(18, 113, 70)
+}
 
 #btn-yellow {
     background: rgb(255, 194, 57)
+}
+#btn-yellow:hover{
+    background: rgb(169, 127, 31)
 }
 
 /* recent-news-section */
@@ -254,6 +266,9 @@
     background: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 700;
+}
+.donation-button:hover{
+    background: rgb(190, 190, 190);
 }
 
 .active {
